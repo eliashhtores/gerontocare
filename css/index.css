@@ -1,3 +1,31 @@
+.social-media {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  margin: auto;
+}
+
+.youtube {
+  background-image: url("../images/youtube.png");
+  background-repeat:no-repeat;
+  width: 89px;
+  height: 89px;
+}
+
+.facebook {
+  background-image: url("../images/facebook.png");
+  background-repeat:no-repeat;
+  width: 89px;
+  height: 89px;
+}
+
+.instagram {
+  background-image: url("../images/instagram.png");
+  background-repeat:no-repeat;
+  width: 89px;
+  height: 89px;
+}
+
 .u-section-1 {
   min-height: 818px;
 }
@@ -60,6 +88,13 @@
 }
 
 @media (max-width: 1199px) {
+  .social-media {
+    display: flex;
+    align-items: center;
+    width: 22%;
+    margin: auto;
+  }
+
   .u-section-1 {
     min-height: 795px;
   }
@@ -99,6 +134,13 @@
 }
 
 @media (max-width: 991px) {
+  .social-media {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: auto;
+  }
+  
   .u-section-1 {
     min-height: 572px;
   }
@@ -142,6 +184,10 @@
 }
 
 @media (max-width: 767px) {
+  .social-media {
+    width: 50%;
+  }
+
   .u-section-1 {
     min-height: 1220px;
   }
